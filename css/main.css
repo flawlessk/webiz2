@@ -9,6 +9,7 @@ header {
     position: sticky;
     top: 0;
     opacity: 0.5;
+    z-index: 9;
 }
 .navbar-li {
     display: inline-block;
@@ -60,4 +61,56 @@ footer {
 footer img {
     height: 40px;
     padding: 15px 100px;
+}
+/* biography page */
+.biography-container {
+    margin: 20px 200px;
+    position: relative;
+    height: 1028px;
+}
+.biography-container h1 {
+    position: absolute;
+    color: white;
+    top:150px;
+    left: 185px;
+    font-size: 40px;
+}
+.biography-container p {
+    color: pink;
+    position: absolute;
+    bottom: 100px;
+    font-weight: 700;
+}
+.biography-container-p {
+    margin: 10px 0;
+    position: absolute;
+    color: white;
+    top: 350px;
+    font-weight: 700;
+}
+.biography-container img {
+    position: absolute;
+    max-width: 1000px;
+    height: 1028px;
+}
+/* songs */
+.new-songs {
+    margin: 20px 0;
+}
+/* forms */
+.form-input {
+    margin: 20px 10px;
+}
+.gitlabel {
+    margin: 30px 0 0 10px;
+}
+#git-textarea {
+    width: 500px;
+}
+#form-button {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.mapiframe {
+    margin-left: 10px;
 }
